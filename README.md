@@ -1,4 +1,4 @@
 Teacup_Firmware_Scara
 =====================
 
-Scara-version of teh RepRap Teacup-project
+Scara-version of the RepRap Teacup-project
