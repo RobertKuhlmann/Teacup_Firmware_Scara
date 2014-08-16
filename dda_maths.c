@@ -7,7 +7,13 @@
 
 #include <stdlib.h>
 #include <stdint.h>
+
+#ifdef SCARA_PRINTER
+/*
+	floating pointer is only needed for Scara-type printers at the moment.
+*/
 #include <math.h>
+#endif
 
 /*!
   Integer multiply-divide algorithm. Returns the same as muldiv(multiplicand, multiplier, divisor), but also allowing to use precalculated quotients and remainders.
